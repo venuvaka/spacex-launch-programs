@@ -1,0 +1,20 @@
+.filter-wrapper {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.custom-border {
+    border: 1px solid #eaeaea;
+    margin: 0 5px 5px;
+}
+
+.year {
+    background-color: lightgreen;
+    border-radius: 3px;
+}
+
+.active {
+    background-color: green;
+    border-radius: 3px;
+}
