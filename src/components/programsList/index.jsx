@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import "./index.css";
 
 const ProgramList = ({ programs }) => {
@@ -29,7 +29,7 @@ const ProgramList = ({ programs }) => {
                     <b>Mission Ids: </b>
                     <ul>
                       {program.mission_id.map((id) => (
-                        <li>{id}</li>
+                        <li key={id}>{id}</li>
                       ))}
                     </ul>
                   </div>

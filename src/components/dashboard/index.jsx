@@ -31,7 +31,7 @@ const Dashboard = () => {
 
   return (
     <div className="d-flex row col-16">
-      <div className="col-lg-3 col-md-6 col-sm-12">
+      <div className="col-lg-3 col-md-6 col-sm-12 mb-4">
         <Filter
           selectedYear={selectedYear}
           setSelectedYear={setSelectedYear}
